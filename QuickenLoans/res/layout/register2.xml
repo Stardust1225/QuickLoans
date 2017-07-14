@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true">
+    
+    <Button
+        android:id="@+id/register_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back1" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+    	android:layout_marginRight="20dp" 
+    	android:layout_marginTop="5dp">
+    	<TextView 
+        	android:layout_width="70dp"
+        	android:layout_height="wrap_content"
+        	android:text="姓名"
+        	android:textSize="15sp"
+        	android:gravity="center"/>
+    	<EditText 
+    	    android:id="@+id/register_name"
+    	    android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+    	    />
+     </LinearLayout>
+     
+     
+     
+   
+     
+    
+     
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+    	android:layout_marginRight="20dp" 
+    	android:layout_marginTop="20dp">
+    	<TextView 
+        	android:layout_width="70dp"
+        	android:layout_height="wrap_content"
+        	android:text="邮箱"
+        	android:textSize="15sp"
+        	android:gravity="center"/>
+    	<EditText 
+    	    android:id="@+id/register_email"
+    	    android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@."
+    	    android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+    	    />
+     </LinearLayout>
+     
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+    	android:layout_marginRight="20dp" 
+    	android:layout_marginTop="10dp">
+    	<TextView 
+        	android:layout_width="70dp"
+        	android:layout_height="wrap_content"
+        	android:text="文化程度"
+        	android:textSize="15sp"
+        	android:gravity="center"/>
+    	<Spinner  
+    	    android:id="@+id/register_education"
+    	    android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:textSize="15sp"
+    	    />
+     </LinearLayout>
+     
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+    	android:layout_marginRight="20dp" 
+    	android:layout_marginTop="10dp">
+    	<TextView 
+        	android:layout_width="70dp"
+        	android:layout_height="wrap_content"
+        	android:text="职业"
+        	android:textSize="15sp"
+        	android:gravity="center"/>
+    	<Spinner 
+    	    android:id="@+id/register_career"
+    	    android:layout_width="match_parent"
+    	    android:textSize="15sp"
+        	android:layout_height="wrap_content"
+    	    />
+     </LinearLayout>
+    
+      
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+    	android:layout_marginRight="20dp" 
+    	android:layout_marginTop="10dp">
+    	<TextView 
+        	android:layout_width="70dp"
+        	android:layout_height="wrap_content"
+        	android:text="婚姻"
+        	android:textSize="15sp"
+        	android:gravity="center"/>
+    	<Spinner 
+    	    android:id="@+id/register_marrage"
+    	    android:layout_width="match_parent"
+    	    android:textSize="15sp"
+        	android:layout_height="wrap_content"/>
+     </LinearLayout>
+     
+       
+       
+    <Button 
+        	android:id="@+id/register_more"
+        	android:layout_width="match_parent"
+        	android:layout_height="30dp"
+        	android:text="绑定其它账号"
+        	android:textSize="10sp"
+     		android:background="@null"
+        	android:textColor="#ff0000"/>
+    
+    <LinearLayout 
+        	android:id="@+id/register_other"
+        	android:layout_width="match_parent"
+        	android:layout_height="75dp"
+        	android:layout_marginTop="5dp"
+        	android:orientation="horizontal"
+        	android:animateLayoutChanges="true">
+		<ImageView
+    	    android:id="@+id/register_qq"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="match_parent"
+    	    android:layout_weight="1"
+    	    android:scaleType="fitCenter"
+    	    android:src="@drawable/qq"/>
+		<ImageView
+		    android:id="@+id/register_weixin"
+    	    android:layout_width="match_parent"
+    	    android:layout_weight="1"
+    	    android:layout_height="match_parent"
+    	    android:scaleType="fitCenter"
+    	    android:src="@drawable/weixin"/>
+    	<ImageView
+    	    android:id="@+id/register_weibo"
+    	    android:layout_width="match_parent"
+    	    android:layout_weight="1"
+    	    android:layout_height="match_parent"
+    	    android:scaleType="fitCenter"
+    	    android:src="@drawable/weibo"/>
+    	<ImageView
+    	    android:id="@+id/register_zhifubao"
+    	    android:layout_width="match_parent"
+    	    android:layout_weight="1"
+    	    android:scaleType="fitCenter"
+    	    android:layout_height="match_parent"
+    	    android:src="@drawable/zhifubao"/>
+    </LinearLayout>
+    
+    <Button
+        	android:id="@+id/register_register"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:text="确认无误，注册"
+        	android:background="@null"
+        	android:layout_marginTop="20dp"/>
+
+</LinearLayout>

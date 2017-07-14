@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Service</display-name>
+  
+  
+  	<servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>Register</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/Register</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Change</servlet-name>
+        <servlet-class>Change</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Change</servlet-name>
+        <url-pattern>/Change</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Adddeal</servlet-name>
+        <servlet-class>Adddeal</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Adddeal</servlet-name>
+        <url-pattern>/Adddeal</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Quicklogin</servlet-name>
+        <servlet-class>Quicklogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Quicklogin</servlet-name>
+        <url-pattern>/Quicklogin</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Requestdeal</servlet-name>
+        <servlet-class>Requestdeal</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Requestdeal</servlet-name>
+        <url-pattern>/Requestdeal</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>Makedeal</servlet-name>
+        <servlet-class>Makedeal</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Makedeal</servlet-name>
+        <url-pattern>/Makedeal</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Borrowdeal</servlet-name>
+        <servlet-class>Borrowdeal</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Borrowdeal</servlet-name>
+        <url-pattern>/Borrowdeal</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Lenddeal</servlet-name>
+        <servlet-class>Lenddeal</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Lenddeal</servlet-name>
+        <url-pattern>/Lenddeal</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Getinfo</servlet-name>
+        <servlet-class>Getinfo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Getinfo</servlet-name>
+        <url-pattern>/Getinfo</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>Finishdeal</servlet-name>
+        <servlet-class>Finishdeal</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Finishdeal</servlet-name>
+        <url-pattern>/Finishdeal</url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+        <servlet-name>Recommend</servlet-name>
+        <servlet-class>Recommend</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Recommend</servlet-name>
+        <url-pattern>/Recommend</url-pattern>
+    </servlet-mapping>
+</web-app>
